@@ -1,0 +1,8 @@
+cmake_minimum_required (VERSION 2.6)
+project(TcpdumpFileReaderCeePeePee)
+set (ParserPlus_VERSION_MAJOR 1)
+set (ParserPlus_VERSION_MINOR 0)
+set (CMAKE_INSTALL_PREFIX ${CMAKE_CURRENT_BINARY_DIR})
+set (CMAKE_C_COMPILER gcc)
+set (CMAKE_CXX_COMPILER g++)
+add_subdirectory(src)
